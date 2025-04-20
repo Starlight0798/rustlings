@@ -12,8 +12,7 @@
 // can be returned in a `Result`.
 
 use std::error::Error;
-use std::fmt::{self, Display};
-use std::num::ParseIntError;
+use std::fmt::{self};
 
 #[derive(PartialEq, Debug)]
 enum CreationError {
